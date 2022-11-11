@@ -62,7 +62,7 @@ int main()
 
 	std::cout << "HMAC: " << hmacText << std::endl;
 
-	// mac[0] = 'x';
+	mac[0] = 'x';
 
 	if (Verify(key, plainText, mac))
 	{
